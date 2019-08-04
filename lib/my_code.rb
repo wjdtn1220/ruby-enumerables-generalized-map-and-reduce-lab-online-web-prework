@@ -8,7 +8,7 @@ def map(s)
   new
 end
 
-def reduce(s, sp=0)
+def reduce(s, sp=nil)
   if sp
     accum = sp
     i = 0
